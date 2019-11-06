@@ -1,7 +1,6 @@
 <template>
   <div id="contact">
     <h1>{{ msg }}</h1>
-    <data-contact></data-contact>
   </div>
 </template>
 
