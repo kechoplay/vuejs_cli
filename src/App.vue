@@ -7,7 +7,9 @@
     <div>
       <p>{{ selectComponent }}</p>
     </div>
-    <component :is="selectComponent"></component>
+    <keep-alive>
+      <component :is="selectComponent"></component>
+    </keep-alive>
   </div>
   
 </template>
